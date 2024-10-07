@@ -4,7 +4,7 @@ In this repository, I will go through some short ML and DL examples. In some cas
 ## Insied the logestic_reg_random_forest_finetune.ipynb I have some simple data processing using pandas
 and then I perform
 # Logistic Regression 
-  to Perform a logistic regression to analyze the relationship between vehicle model year and the likelihood of being a plug-in hybrid.
+  Perform a logistic regression to analyze the relationship between vehicle model year and the likelihood of being a plug-in hybrid.
 # RandomForest
 and then Used RandomForest to predict whether a new electric vehicle is a battery electric vehicle (BEV) or a plug-in hybrid electric vehicle (PHEV). 
 It includes RandomForest **feature importance**, 
