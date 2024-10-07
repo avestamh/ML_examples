@@ -20,5 +20,5 @@ It includes RandomForest **feature importance**,
 To further validate the comparison between the two models, you can perform statistical testing. A common test is McNemar’s Test, which checks whether the differences in predictions between two models are statistically significant.
 If the p-value is below a threshold (e.g., 0.05), it suggests that there is a statistically significant difference between the two models.
 ##############################################################################
-
+# CNN examples
 the **CNN_CIFAR10.py:** shows how to build and train a simple Convolutional Neural Network (CNN) to classify images from the CIFAR-10 dataset using TensorFlow and Keras. it trains, evaluates the model and generates the predicted image.
