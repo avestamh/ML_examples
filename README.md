@@ -1,7 +1,8 @@
 # ML_examples
 In this repository, I will go through some short ML and DL examples. In some cases, I will explain how to fine-tune the model
 in the LogesticRegression_with_numpy.py I used numpy to perform logistic regression.
-###############################################################################################################
+
+################################################################################
 Insied the **logestic_reg_random_forest_finetune.ipynb** I have some simple data processing using pandas
 and then I tested some Ml algorithm on the data
 # Logistic Regression 
@@ -17,4 +18,4 @@ It includes RandomForest **feature importance**,
  *   **Perform Statistical Testing** 
 To further validate the comparison between the two models, you can perform statistical testing. A common test is McNemar’s Test, which checks whether the differences in predictions between two models are statistically significant.
 If the p-value is below a threshold (e.g., 0.05), it suggests that there is a statistically significant difference between the two models.
-######################################################################################################################
+##############################################################################
