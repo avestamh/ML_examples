@@ -15,7 +15,7 @@ It includes RandomForest **feature importance**,
   * **Hyperparameter tuning**: Use RandomizedSearchCV or GridSearchCV to fine-tune the hyperparameters of the Random Forest model for better performance.
 
  *  **Handling Class Imbalance**
- *  **A/B Testubg**
+ *  **A/B Testin**
  *   **Perform Statistical Testing** 
 To further validate the comparison between the two models, you can perform statistical testing. A common test is McNemar’s Test, which checks whether the differences in predictions between two models are statistically significant.
 If the p-value is below a threshold (e.g., 0.05), it suggests that there is a statistically significant difference between the two models.
