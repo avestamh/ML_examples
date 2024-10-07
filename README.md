@@ -1,5 +1,6 @@
 # ML_examples
 In this repository, I will go through some short ML and DL examples. In some cases, I will explain how to fine-tune the model
+in the LogesticRegression_with_numpy.py I used numpy to perform logistic regression.
 ###############################################################################################################
 Insied the **logestic_reg_random_forest_finetune.ipynb** I have some simple data processing using pandas
 and then I tested some Ml algorithm on the data
