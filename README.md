@@ -21,4 +21,4 @@ To further validate the comparison between the two models, you can perform stati
 If the p-value is below a threshold (e.g., 0.05), it suggests that there is a statistically significant difference between the two models.
 ##############################################################################
 
-the **CNN_CIFAR10.py:** show how to build and train a simple Convolutional Neural Network (CNN) to classify images from the CIFAR-10 dataset using TensorFlow and Keras. it trains, evaluates the model and generates the predicted image.
+the **CNN_CIFAR10.py:** shows how to build and train a simple Convolutional Neural Network (CNN) to classify images from the CIFAR-10 dataset using TensorFlow and Keras. it trains, evaluates the model and generates the predicted image.
