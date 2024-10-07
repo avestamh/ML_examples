@@ -1,12 +1,12 @@
 # ML_examples
 In this repository, I will go through some short ML and DL examples. In some cases, I will explain how to fine-tune the model
 ###############################################################################################################
-## Insied the logestic_reg_random_forest_finetune.ipynb I have some simple data processing using pandas
-and then I perform
+Insied the **logestic_reg_random_forest_finetune.ipynb** I have some simple data processing using pandas
+and then I tested some Ml algorithm on the data
 # Logistic Regression 
   Perform a logistic regression to analyze the relationship between vehicle model year and the likelihood of being a plug-in hybrid.
 # RandomForest
-and then Used RandomForest to predict whether a new electric vehicle is a battery electric vehicle (BEV) or a plug-in hybrid electric vehicle (PHEV). 
+I Used RandomForest model to predict whether a new electric vehicle is a battery electric vehicle (BEV) or a plug-in hybrid electric vehicle (PHEV). 
 It includes RandomForest **feature importance**, 
  * Model evaluation using **Cross-Validation** to get a better understanding of how well your model generalizes to unseen data
   * **Hyperparameter tuning**: Use RandomizedSearchCV or GridSearchCV to fine-tune the hyperparameters of the Random Forest model for better performance.
