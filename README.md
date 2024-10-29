@@ -22,3 +22,6 @@ If the p-value is below a threshold (e.g., 0.05), it suggests that there is a st
 ##############################################################################
 # CNN examples
 the **CNN_CIFAR10.py:** shows how to build and train a simple Convolutional Neural Network (CNN) to classify images from the CIFAR-10 dataset using TensorFlow and Keras. it trains, evaluates the model and generates the predicted image.
+############################################################################
+# LSTM example
+I used LSTM to predict stock price for the next 90 days based on the price of the last year to date.
