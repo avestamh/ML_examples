@@ -2,7 +2,7 @@
 #----------------------------------------------
 # Written by: Sadra Avestan
 # Date: July 29, 2019
-# Description: [Optional: Brief description of what the script does]
+# Description: clustering of protein configurations
 #----------------------------------------------
 import matplotlib.pyplot as plt
 
