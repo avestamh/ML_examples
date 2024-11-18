@@ -124,8 +124,6 @@ zomato=zomato.drop(['address','rest_type', 'type', 'menu_item', 'votes'],axis=1)
 # Randomly sample %50 of your dataframe
 df_percent = zomato.sample(frac=0.5)
 
-
-
 #_____________TF-IDF (Term Frequency-Inverse Document Frequency) Vectorization____________
 
 df_percent.set_index('name', inplace=True)
@@ -140,23 +138,23 @@ cosine_similarities = linear_kernel(tfidf_matrix, tfidf_matrix)
 # Restaurant Recommendation System
 def recommend(name, cosine_similarities = cosine_similarities):
     
-    # Create a list to put top restaurants
+    # Create a list of the top restaurants
     recommend_restaurant = []
     
-    # Find the index of the hotel entered
+    # Find the index of the restaurant entered
     idx = indices[indices == name].index[0]
     
-    # Find the restaurants with a similar cosine-sim value and order them from bigges number
+    # Find the restaurants with a similar cosine-sim value and order them from bigger number
     score_series = pd.Series(cosine_similarities[idx]).sort_values(ascending=False)
     
-    # Extract top 30 restaurant indexes with a similar cosine-sim value
+    # Extract the top 30 restaurant indexes with a similar cosine-sim value
     top30_indexes = list(score_series.iloc[0:31].index)
     
     # Names of the top 30 restaurants
     for each in top30_indexes:
         recommend_restaurant.append(list(df_percent.index)[each])
     
-    # Creating the new data set to show similar restaurants
+    # Creating a new data set to show similar restaurants
     df_new = pd.DataFrame(columns=['cuisines', 'Mean Rating', 'cost'])
     
     # Create the top 30 similar restaurants with some of their columns
