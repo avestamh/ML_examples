@@ -60,13 +60,15 @@ pip install flask
    
    **Home Page:**
 
-   ![Home Page](file-h6hRAjiNkOnK2n4K6jZxKsnF.png)
+  ![image](https://github.com/user-attachments/assets/06c2dcab-9c79-4b2e-9ca6-0a5eff92a41e)
+
 
 2. The application will then display the top 5 book recommendations based on the entered book name.
 
    **Recommendations Page:**
 
-   ![Recommendations Page](file-3CcfdmgSxtlgp3FaUAm0FLFg.png)
+   ![image](https://github.com/user-attachments/assets/69832223-4545-40bc-b997-262b3e61a0b4)
+
 
 ## How It Works
 
